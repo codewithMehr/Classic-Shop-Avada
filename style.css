@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-one {
+  border-top: 3px solid rgb(66 126 209);
+  display: flex;
+  padding-inline: 4%;
+  padding-block: 0.5%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-one li {
+  display: inline-block;
+}
+.nav-one i {
+  padding-right: 16px;
+  color: rgb(73, 73, 73);
+  transition: color 300ms ease-in-out;
+  cursor: pointer;
+}
+.nav-one i:hover {
+  color: rgb(234, 234, 234);
+}
+.input i {
+  padding-right: 5px;
+  color: rgb(170, 170, 170);
+}
+.input i:hover {
+  color: rgb(170, 170, 170);
+}
+.input-field {
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: rgb(170, 170, 170);
+}
+.input-field::placeholder {
+  color: rgb(170, 170, 170);
+}
+.nav-one .textAnimation {
+  font-size: 11px;
+  letter-spacing: 0.03rem;
+  color: rgb(66, 126, 209);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.nav-two {
+  border-top: 0.8px solid rgb(234, 234, 234);
+  display: flex;
+  padding-inline: 4%;
+  padding-block: 2%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+.small-menu {
+  display: none;
+}
+.nav-two #small-menu-icon {
+  display: none;
+}
+.nav-two li {
+  margin: 0;
+  display: inline-block;
+  color: rgb(73, 73, 73);
+  padding-right: 33px;
+  cursor: pointer;
+  position: relative;
+}
+.nav-two li:hover {
+  color: rgb(66, 126, 209);
+  transition: all 60ms ease-in-out;
+}
+.nav-two .btn {
+  display: inline-block;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(66, 126, 209);
+  color: white;
+  padding: 11px 23px;
+  border-radius: 25px;
+  margin: 0;
+}
+.nav-two .btn:hover {
+  background-color: rgb(66, 126, 209);
+  color: white;
+}
+.nav-two .logo {
+  width: 160px;
+  height: auto;
+  padding-inline: 0;
+}
+.nav-two img {
+  padding-inline: 10px;
+}
+.nav-two .sub-menu {
+  display: none;
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  background-color: white;
+  border-radius: 10px;
+}
+.nav-two .sub-menu li {
+  width: fit-content;
+  color: rgb(73, 73, 73);
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+}
+.nav-two .sub-menu li:hover {
+  color: rgb(66, 126, 209);
+}
+.nav-two li:hover > ul {
+  display: block;
+}
+.carousel-caption {
+  top: 30% !important;
+  bottom: 0;
+}
+.carousel-heading {
+  font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.carousel-p {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 9px 20px;
+  border-radius: 25px;
+  border: 1.5px solid white;
+  background-color: rgba(255, 255, 255, 0.297);
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+  font-size: 0.75rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: transparent;
+}
+.section2-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2 {
+  padding: 4% 1%;
+}
+.section2-heading div {
+  width: 33%;
+}
+.section2 hr {
+  background-color: rgb(73, 73, 73);
+  border: 0.8px solid rgb(73, 73, 73);
+  width: 100%;
+}
+.section2 h1 {
+  text-align: center;
+  font-size: 2.375rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.section2 p{
+  text-align: center;
+  font-size: 1.125rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+.options {
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.options p {
+  margin: 0;
+  padding: 1% 5%;
+  border: 0.5px solid rgb(234, 234, 234);
+  background-color: rgb(246, 246, 246);
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.options p:hover {
+  background-color: transparent;
+}
+#men,
+#women,
+#acc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section div div{
+  padding-inline:2%;
+}
+#women {
+  display: none;
+}
+#acc {
+  display: none;
+}
+.section2 h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-block: 8px;
+  font-size: 1rem;
+  cursor:pointer
+}
+.section2 h4:hover{
+  transition: color 300ms ease-in-out;
+  color: rgb(66, 126, 209);
+}
+#men p, #women p, #acc p{
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: rgba(73, 73, 73);
+  text-align: left;
+  font-size: 0.8rem;
+}
+#men .price, #women .price, #acc .price{
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  margin-block: 8px;
+  color: rgb(66, 126, 209);
+}
+.section3 {
+  display: flex;
+  text-align: center;
+  height: 90%;
+}
+.section3 div {
+  width: 33.33%;
+  color: white;
+}
+.section3 h1 {
+  font-size: 2.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.section3 p {
+  font-size: 1.8rem;
+  padding-block: 2%;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.section3 .btn3 {
+  border: 2px solid white;
+  width: fit-content;
+  margin: auto;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.219);
+  cursor: pointer;
+}
+.section3 .btn3:hover {
+  background-color: transparent;
+}
+.div1 {
+  background-image: url(img/section3-img1.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 20% 12%;
+}
+.div2 {
+  background-image: url(img/section3-img2.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 20% 7%;
+}
+.div3 {
+  background-image: url(img/section3-img3.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 20% 7%;
+}
+.section4 {
+  padding: 4% 2%;
+}
+.section4-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section4 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.375rem;
+}
+.section4 hr {
+  background-color: rgb(73, 73, 73);
+  border: 0.8px solid rgb(73, 73, 73);
+  width: 100%;
+}
+.section4-heading div {
+  width: 33%;
+}
+.section4 p {
+  text-align: center;
+  font-size: 1.125rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;
+}
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+  position: absolute;
+  top: calc(50% - 20px);
+}
+.MultiCarousel .leftLst {
+  left: 0;
+}
+.MultiCarousel .rightLst {
+  right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #ccc;
+}
+.for-overlay {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(34, 137, 212, 1) 0%,
+    rgb(178, 141, 145) 60%,
+    rgba(255, 144, 101, 1) 100%
+  );
+  opacity: 0.9;
+  color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height: 0;
+  transition: all 0.4s ease-out;
+  padding: 0;
+}
+.for-overlay:hover .overlay {
+  height: 100%;
+}
+.overlay h5 {
+  text-align: center;
+  margin-top: 30%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.overlay p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+}
+.overlay .price {
+  text-align: center;
+  margin-block: 5% 10%;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+}
+.overlay span {
+  margin-inline: 4%;
+}

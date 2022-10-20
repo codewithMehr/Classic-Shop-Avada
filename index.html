@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="e-commerce store">
+  <link rel="shortcut icon" href="img/favicon.ico?" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Avada</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-one">
+      <div>
+        <ul>
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-youtube"></i></li>
+          <li><i class="fa-brands fa-pinterest-p"></i></li>
+        </ul>
+      </div>
+      <div>
+        <span class="textAnimation"></span>
+      </div>
+      <div>
+        <div class="input">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input class="input-field" type="search" placeholder="Search for products..." />
+        </div>
+      </div>
+    </nav>
+    <nav class="nav-two">
+      <img src="img/menu4.png" alt="" id="small-menu-icon" />
+
+      <div>
+        <img class="logo" alt="Avada Classic Shop"
+          src="https://avada.theme-fusion.com/classic-shop/wp-content/uploads/sites/48/2021/04/avada-classic-shop-logo.svg" />
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            Home <i class="fa-solid fa-angle-down"></i>
+            <ul class="sub-menu">
+              <li>Home 1</li>
+              <li>Home 2</li>
+              <li>Home 3</li>
+            </ul>
+          </li>
+          <li>
+            Shop <i class="fa-solid fa-angle-down"></i>
+            <ul class="sub-menu">
+              <li>Shop Full Width</li>
+              <li>Shop With Sidebar</li>
+            </ul>
+          </li>
+          <li>
+            Products <i class="fa-solid fa-angle-down"></i>
+            <ul class="sub-menu">
+              <li>simple Product</li>
+              <li>Variable Product</li>
+              <li>Grouped Product</li>
+            </ul>
+          </li>
+          <li>Categories <i class="fa-solid fa-angle-down"></i></li>
+          <li>News</li>
+          <li>
+            Elements <i class="fa-solid fa-angle-down"></i>
+            <ul class="sub-menu">
+              <li>Featured Products</li>
+              <li>Recent Products</li>
+              <li>Products crousel</li>
+            </ul>
+          </li>
+          <p class="btn">Shop now!</p>
+        </ul>
+      </div>
+      <div>
+        <img src="img/user.png" alt="" />
+        <img src="img/shopping-bag.png" alt="" />
+      </div>
+    </nav>
+    <div>
+      <nav class="small-menu">
+        <ul>
+          <li>Home</li>
+          <li>Shops</li>
+          <li>Products</li>
+          <li>Categories</li>
+          <li>News</li>
+          <li>Elements</li>
+          <li>Shop Now!</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active section1-img" data-bs-interval="4000">
+        <img src="img/bk-1.webp" width="100%" height="631.71px" class="d-block w-100" alt="background" />
+        <div class="carousel-caption d-md-block" data-aos="fade-up" data-aos-delay="100">
+          <h1 class="carousel-heading">Avada Classic Shop</h1>
+          <p class="carousel-p">Show your products with style</p>
+          <span class="btn2">get avada now!</span>
+        </div>
+      </div>
+      <div class="carousel-item section1-img" data-bs-interval="4000">
+        <img src="img/bk3.jpg" width="100%" height="631.71px" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-md-block">
+          <h1 class="carousel-heading">Online Store</h1>
+          <p class="carousel-p">Sell your products with style</p>
+          <span class="btn2">Men</span>
+          <span class="btn2">Women</span>
+        </div>
+      </div>
+      <div class="carousel-item section1-img" data-bs-interval="4000">
+        <img src="img/bk2.jpg" width="100%" height="631.71px" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-md-block">
+          <h1 class="carousel-heading">Brand New Arrivals</h1>
+          <p class="carousel-p">new collection from new york</p>
+          <span class="btn2">view all</span>
+          <span class="btn2">lockbook</span>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </section>
+
+  <section class="section2">
+    <div class="section2-heading">
+      <div>
+        <hr />
+      </div>
+      <div>
+        <h1>Featured Products</h1>
+      </div>
+      <div>
+        <hr />
+      </div>
+    </div>
+    <p>Must have products from our top sellers</p>
+    <div class="options">
+      <p id="option1">Men</p>
+      <p id="option2">Women</p>
+      <p id="option3">Accessories</p>
+    </div>
+    <div id="men">
+      <div>
+        <img src="img/men1.png" alt="" />
+        <h4>Black Leather Jacket</h4>
+        <p>Men,Jackets, Jeans</p>
+        <p class="price"><del>$235</del> 200</p>
+      </div>
+      <div>
+        <img src="img/men2.png" alt="" />
+        <h4>Black Leather Suit</h4>
+        <p>Jackets, Men</p>
+        <p class="price">$176</p>
+      </div>
+      <div>
+        <img src="img/men3.jpg" alt="" />
+        <h4>Blue Jacket & Stripe Tee</h4>
+        <p>Jackets, Men, Suits</p>
+        <p class="price">$580</p>
+      </div>
+      <div>
+        <img src="img/men4.jpg" alt="" />
+        <h4>Modern Black Leather Suit</h4>
+        <p>Jackets, Men</p>
+        <p class="price">$96</p>
+      </div>
+    </div>
+    <div id="women">
+      <div>
+        <img src="img/women1.jpg" alt="" />
+        <h4>Spring Printed Dress</h4>
+        <p>Dress, Women</p>
+        <p class="price">$47</p>
+      </div>
+      <div>
+        <img src="img/women2.png" alt="" />
+        <h4>Modern Love Tee</h4>
+        <p>T-Shirt, Women</p>
+        <p class="price">$68</p>
+      </div>
+      <div>
+        <img src="img/women3.jpg" alt="" />
+        <h4>Black Jacket</h4>
+        <p>jacket, Women</p>
+        <p class="price">$125</p>
+      </div>
+      <div>
+        <img src="img/women4.png" alt="" />
+        <h4>Hipster Black Top</h4>
+        <p>T-Shirt, Women</p>
+        <p class="price">$57</p>
+      </div>
+    </div>
+    <div id="acc">
+      <div>
+        <img src="img/acc1.png" alt="" />
+        <h4>Casual Leather Belts</h4>
+        <p>Accessories, Men</p>
+        <p class="price">$65</p>
+      </div>
+      <div>
+        <img src="img/acc2.png" alt="" />
+        <h4>Casual Leather Belts</h4>
+        <p>Accessories, Gloves, Men, Women</p>
+        <p class="price">$45</p>
+      </div>
+      <div>
+        <img src="img/acc3.jpg" alt="" />
+        <h4>Modern Leather Boots</h4>
+        <p>Accessories, Men, Miscellaneous, Shoes</p>
+        <p class="price"><del>$50</del> $30</p>
+      </div>
+      <div>
+        <img src="img/acc4.png" alt="" />
+        <h4>Brown Dress Shoes</h4>
+        <p>Accessories, Men, Miscellaneous, Shoes</p>
+        <p class="price"><del>$46</del> $36</p>
+      </div>
+    </div>
+  </section>
+  <section class="section3">
+    <div class="div1">
+      <h1>
+        Winter <br />
+        Collection
+      </h1>
+      <p>stylish and warm</p>
+      <p class="btn3">view more</p>
+    </div>
+    <div class="div2">
+      <h1>
+        Spring <br />
+        Collection
+      </h1>
+      <p>BRIGHT AND COLORFUL</p>
+      <p class="btn3">view more</p>
+    </div>
+    <div class="div3">
+      <h1>
+        Autumn <br />
+        Collection
+      </h1>
+      <p>RICH AND COMFORTABLE</p>
+      <p class="btn3">view more</p>
+    </div>
+  </section>
+  <section class="section4">
+    <div class="section4-heading">
+      <div>
+        <hr />
+      </div>
+      <div>
+        <h1>New Arrivals</h1>
+      </div>
+      <div>
+        <hr />
+      </div>
+    </div>
+    <p>Brand new products from top designers</p>
+    <div class="container">
+      <div class="row">
+        <div class="MultiCarousel" data-items="2,3,4,5" data-slide="1" id="MultiCarousel" data-interval="3000">
+          <div class="MultiCarousel-inner">
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/men1.png" alt="" />
+                <div class="overlay">
+                  <h5>Black Leather Jacket</h5>
+                  <p>Men,Jacket,Jens</p>
+                  <p class="price">$200</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/women2.png" alt="" />
+                <div class="overlay">
+                  <h5>Modern Love Tee</h5>
+                  <p>T-Shirts, Women</p>
+                  <p class="price">$68</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/women1.jpg" alt="" />
+                <div class="overlay">
+                  <h5>Spring Printed Dress</h5>
+                  <p>Dress, Women</p>
+                  <p class="price">$47</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/men3.jpg" alt="" />
+                <div class="overlay">
+                  <h5>Black Jacket</h5>
+                  <p>Jackets, Women</p>
+                  <p class="price">$125</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/women4.png" alt="" />
+                <div class="overlay">
+                  <h5>Hipster Black Top</h5>
+                  <p>T-Shirts, Women</p>
+                  <p class="price">$57</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/men2.png" alt="" />
+                <div class="overlay">
+                  <h5>Black Leather Suit</h5>
+                  <p>Jackets, Men</p>
+                  <p class="price">$176</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/men4.jpg" alt="" />
+                <div class="overlay">
+                  <h5>Modern Black Leather Suit</h5>
+                  <p>Jackets, Men</p>
+                  <p class="price">$96</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/women3.jpg" alt="" />
+                <div class="overlay">
+                  <h5>Black Jacket</h5>
+                  <p>Jackets, Women</p>
+                  <p class="price">$125</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/men1.png" alt="" />
+                <div class="overlay">
+                  <h5>Black Leather Jacket</h5>
+                  <p>Men,Jacket,Jens</p>
+                  <p class="price">$200</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/women2.png" alt="" />
+                <div class="overlay">
+                  <h5>Modern Love Tee</h5>
+                  <p>T-Shirts, Women</p>
+                  <p class="price">$68</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/women1.jpg" alt="" />
+                <div class="overlay">
+                  <h5>Spring Printed Dress</h5>
+                  <p>Dress, Women</p>
+                  <p class="price">$47</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/men3.jpg" alt="" />
+                <div class="overlay">
+                  <h5>Black Jacket</h5>
+                  <p>Jackets, Women</p>
+                  <p class="price">$125</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/women4.png" alt="" />
+                <div class="overlay">
+                  <h5>Hipster Black Top</h5>
+                  <p>T-Shirts, Women</p>
+                  <p class="price">$57</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/men2.png" alt="" />
+                <div class="overlay">
+                  <h5>Black Leather Suit</h5>
+                  <p>Jackets, Men</p>
+                  <p class="price">$176</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/men4.jpg" alt="" />
+                <div class="overlay">
+                  <h5>Modern Black Leather Suit</h5>
+                  <p>Jackets, Men</p>
+                  <p class="price">$96</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="for-overlay">
+                <img src="img/women3.jpg" alt="" />
+                <div class="overlay">
+                  <h5>Black Jacket</h5>
+                  <p>Jackets, Women</p>
+                  <p class="price">$125</p>
+                  <span><i class="fa fa-cart-shopping"></i>Add to cart</spaspan>
+                    <span><i class="fa-solid fa-list-ul"></i>Details</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-dark leftLst">&#8249;</button>
+          <button class="btn btn-dark rightLst">&#8250;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

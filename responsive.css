@@ -1,0 +1,98 @@
+@media (max-width: 800px) {
+  .nav-one {
+    display: none;
+  }
+  .nav-two {
+    padding-block: 5%;
+  }
+  .nav-two .menu {
+    display: none;
+  }
+  .nav-two #small-menu-icon {
+    display: block;
+  }
+  .nav-two img {
+    padding-inline: 0;
+  }
+  .small-menu {
+    cursor: pointer;
+    transition: all 0.7s ease;
+    display: none;
+  }
+  .small-menu li {
+    padding-block: 20px;
+    padding-inline: 15px;
+    border-bottom: 0.8px solid rgb(234, 234, 234);
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: rgb(73, 73, 73);
+    list-style-type: none;
+  }
+  .small-menu li:hover {
+    color: #305dab;
+  }
+  .visible {
+    display: block;
+    transition: all 0.7s ease;
+  }
+  .section1-img img {
+    height: 336.72px;
+  }
+  .carousel-caption {
+    top: 12% !important;
+    bottom: 0;
+  }
+  .carousel-heading {
+    font-size: 2.5rem;
+  }
+  .carousel-p {
+    font-size: 1rem;
+  }
+  #men img,
+  #women img,
+  #acc img {
+    width: 70%;
+  }
+  .overlay {
+    display: none;
+  }
+  .section2 h1 {
+    font-size: 1.5rem;
+  }
+  .section3 {
+    flex-direction: column;
+  }
+  .section3 div {
+    width: 100%;
+  }
+  .div1,
+  .div2,
+  .div3 {
+    padding-block: 46% 16%;
+  }
+}
+@media (max-width: 386px) {
+  #men,
+  #women,
+  #acc {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  #men div,
+  #women div,
+  #acc div {
+    width: 100%;
+  }
+  #men img,
+  #women img,
+  #acc img {
+    width: 50%;
+  }
+  #men p,
+  #women p,
+  #acc p {
+    text-align: center;
+  }
+}
